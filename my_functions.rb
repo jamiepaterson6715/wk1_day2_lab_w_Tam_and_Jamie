@@ -42,16 +42,37 @@
 # def join_string(string_1, string_2)
 #   return string_1 + string_2
 # end
-# join_string(string_1, string_2)
 
+#
 # def add_string_as_number(str1, str2)
 #   return str1.to_i + str2.to_i
 # end
 # add_string_as_number("1", "2")
 
-def number_to_full_month_name(month_num)
-  if (month_num == 1)
-    return "January"
-  end
+# def number_to_full_month_name(month_num)
+#   if (month_num == 1)
+#     return "January"
+#   elsif (month_num == 3)
+#     return "March"
+#   elsif (month_num == 9)
+#     return "September"
+#   else
+#     return "There are only 3 months silly."
+#   end
+# end
+#
+# def number_to_short_month_name(month_num)
+#   if (month_num == 1)
+#     return "Jan"
+#   elsif (month_num == 4)
+#     return "Apr"
+#   elsif (month_num == 10)
+#     return "Oct"
+#   else
+#     return "There are only 3 months silly."
+#   end
+# end
+
+def volume_of_cube(side_length)
+  return side_length ** 3
 end
-number_to_full_month_name(1)
