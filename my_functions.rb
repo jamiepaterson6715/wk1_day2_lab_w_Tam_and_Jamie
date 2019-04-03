@@ -73,6 +73,10 @@
 #   end
 # end
 
-def volume_of_cube(side_length)
-  return side_length ** 3
+# def volume_of_cube(side_length)
+#   return side_length ** 3
+# end
+
+def volume_of_sphere(pi_volume)
+  return pi_volume 3.14 * 3.14 * 1
 end
